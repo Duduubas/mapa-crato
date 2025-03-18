@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas Vindas ao Crato! - Guia Turístico</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="overlay"></div>
+        <main class="main-content">
+            <div class="textos-iniciais">
+                <h1>Boas Vindas<br>ao<br>Crato!</h1>
+                <p>Localizado no sopé da Chapada do Araripe, no sul do Ceará, o Crato é um município que combina beleza natural, 
+                    riqueza cultural e um clima acolhedor. Com uma população de aproximadamente 121.462 habitantes, a cidade destaca-se por suas 
+                    paisagens diversificadas e um patrimônio histórico significativo.</p>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline-center">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item left">
+                        <div class="timeline-marker">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-photo-wrapper">
+                                <div class="timeline-photo" data-spot="spot1">
+                                    <img src="public/img/praca-img.jpg" alt="Ponto Turístico 1">
+                                </div>
+                            </div>
+                            <h3 class="spot-title">Praça da Sé</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item right">
+                        <div class="timeline-marker">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-photo-wrapper">
+                                <div class="timeline-photo" data-spot="spot2">
+                                    <img src="public/img/chapadadoararipe-img.png" alt="Ponto Turístico 2">
+                                </div>
+                            </div>
+                            <h3 class="spot-title">Chapada do Araripe</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item left">
+                        <div class="timeline-marker">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-photo-wrapper">
+                                <div class="timeline-photo" data-spot="spot3">
+                                    <img src="public/img/geoparkararipe-img.png" alt="Ponto Turístico 3">
+                                </div>
+                            </div>
+                            <h3 class="spot-title">Geopark Araripe</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item right">
+                        <div class="timeline-marker">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-photo-wrapper">
+                                <div class="timeline-photo" data-spot="spot4">
+                                    <img src="public/img/pexposições-img.png" alt="Ponto Turístico 4">
+                                </div>
+                            </div>
+                            <h3 class="spot-title">Parque de Exposição</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Modal (Pop-up) -->
+    <div class="modal" id="spotModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modalTitle">Título do Ponto Turístico</h2>
+            <div class="modal-image">
+                <img id="modalImage" src="/api/placeholder/600/400" alt="Imagem do Ponto Turístico">
+            </div>
+            <p id="modalDescription">Descrição do ponto turístico.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Esse site foi desenvolvido por <a href="https://eduardobrito.dev" style="color: #007BFF;">Eduardo B.</a></p>
+        <p>As imagens utilizadas nesse site estão disponíveis em <a href="https://google.com" target="_blank">Google.com</a> e <a href="https://www.tripadvisor.com.br" target="_blank">Tripadvisor.com.br</a>.</p>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

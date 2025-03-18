@@ -1,0 +1,22 @@
+footer {
+    color: #e0e0e0; /* Texto em tom claro */
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #ffcc00; /* Amarelo para destacar os links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer
+}
+
+footer a:hover {
+    color: #ffaa00; /* Amarelo mais vibrante ao passar o mouse */
+}
+
+footer p {
+    margin: 5px 0;
+}
