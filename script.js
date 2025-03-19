@@ -1,23 +1,23 @@
 // Dados dos pontos turísticos
 const turisticSpots = {
     spot1: {
-        title: "Seminário São José",
-        image: "/api/placeholder/600/400", // Substitua pelo caminho real da imagem
+        title: "Praça da Sé",
+        image: "/public/img/praca-img.jpg", // Substitua pelo caminho real da imagem
         description: "O Seminário São José é um importante marco histórico e cultural do Crato. Fundado em 1875, o edifício é um exemplo impressionante da arquitetura religiosa do período. Além de sua importância religiosa, o seminário desempenhou papel fundamental na educação da região, sendo considerado um dos mais importantes centros educacionais do interior nordestino em sua época. Sua estrutura imponente e suas belas áreas internas contam histórias de fé e conhecimento que moldaram gerações de cratenses."
     },
     spot2: {
         title: "Chapada do Araripe",
-        image: "/api/placeholder/600/400", // Substitua pelo caminho real da imagem
+        image: "/public/img/chapadadoararipe-img.png", // Substitua pelo caminho real da imagem
         description: "A Chapada do Araripe é uma formação geológica que se estende por três estados do Nordeste brasileiro. No Crato, ela abriga a Floresta Nacional do Araripe, primeira floresta nacional criada no Brasil. O local é conhecido por sua biodiversidade única e pelas fontes naturais de água cristalina que dão origem aos famosos 'olhos d'água' da região. Com uma fauna e flora diversificadas, a chapada proporciona aos visitantes a oportunidade de contemplar paisagens deslumbrantes e sentir o clima agradável característico desta altitude, em contraste com o calor típico do sertão nordestino."
     },
     spot3: {
         title: "Geopark Araripe",
-        image: "/api/placeholder/600/400", // Substitua pelo caminho real da imagem
+        image: "/public/img/geoparkararipe-img.png", // Substitua pelo caminho real da imagem
         description: "O Geopark Araripe foi o primeiro geoparque das Américas reconhecido pela UNESCO. Ele abriga importantes sítios geológicos e paleontológicos, com fósseis excepcionalmente bem preservados que datam de 110 milhões de anos. O centro de visitantes oferece exposições educativas sobre a história geológica da região, permitindo aos visitantes uma viagem no tempo para conhecer os organismos que habitaram a Bacia do Araripe. O geoparque é um exemplo notável de como a proteção do patrimônio geológico pode ser combinada com desenvolvimento sustentável regional e educação ambiental."
     },
     spot4: {
         title: "Parque de Exposição Pedro Felício Cavalcanti",
-        image: "/api/placeholder/600/400", // Substitua pelo caminho real da imagem
+        image: "/public/img/pexposições-img.png", // Substitua pelo caminho real da imagem
         description: "O Parque de Exposição é um espaço onde acontecem as principais festividades da cidade, incluindo a tradicional Expocrato. O local é palco de shows, exposições agropecuárias e eventos culturais que celebram a identidade cultural do Cariri cearense. Durante a Expocrato, uma das maiores feiras agropecuárias do Nordeste, o parque se transforma em um centro de negócios, entretenimento e valorização da cultura regional, atraindo visitantes de todo o país. Com ampla infraestrutura, o espaço representa a força do agronegócio e das tradições rurais que são parte fundamental da história do Crato."
     }
 };
