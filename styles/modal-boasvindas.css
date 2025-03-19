@@ -1,0 +1,136 @@
+/* Estilos para o modal de boas-vindas */
+.welcome-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.welcome-modal.visible {
+    opacity: 1;
+    display: flex;
+}
+
+.welcome-modal-content {
+    background: linear-gradient(135deg, var(--primary-bg), var(--modal-bg));
+    padding: 3rem;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.4s ease;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--timeline-color);
+    text-align: center;
+}
+
+.welcome-modal.visible .welcome-modal-content {
+    transform: scale(1);
+}
+
+.welcome-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: var(--modal-close);
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.welcome-modal-close:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: rotate(90deg);
+}
+
+.welcome-modal-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+}
+
+.welcome-modal-logo img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(241, 196, 15, 0.8));
+}
+
+.welcome-modal-title {
+    color: var(--timeline-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-modal-text {
+    color: var(--modal-text);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.explore-btn {
+    background-color: var(--timeline-color);
+    color: var(--primary-bg);
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.explore-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .welcome-modal-content {
+        padding: 2rem;
+    }
+    
+    .welcome-modal-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-modal-content {
+        padding: 1.5rem;
+    }
+    
+    .welcome-modal-title {
+        font-size: 1.8rem;
+    }
+    
+    .welcome-modal-text {
+        font-size: 1rem;
+    }
+    
+    .welcome-modal-logo {
+        width: 80px;
+        height: 80px;
+    }
+}
