@@ -40,7 +40,7 @@ hr {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url('/public/img/praca-img.jpg'); /* Substituir pelo fundo real do Crato */
+    background-image: url('/public/praca-img.jpg'); /* Substituir pelo fundo real do Crato */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
