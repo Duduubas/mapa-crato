@@ -138,6 +138,10 @@ hr {
     justify-content: flex-end;
 }
 
+.timeline-item__final.right{
+    justify-content: flex-end;
+}
+
 /* Marcador com z-index aumentado e posicionamento corrigido */
 .timeline-marker {
     position: absolute;
