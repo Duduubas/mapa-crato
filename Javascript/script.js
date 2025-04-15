@@ -2,22 +2,22 @@
 const turisticSpots = {
     spot1: {
         title: "Teatro Rachel de Queiroz",
-        image: "/public/teatro-rachel-queiroz.png", // Substitua pelo caminho real da imagem
+        image: "./public/teatro-rachel-queiroz.png", // Substitua pelo caminho real da imagem
         description: "O Teatro Rachel de Queiroz, localizado no centro do Crato, Ceará, é um importante espaço cultural da região do Cariri. Inaugurado em 20 de junho de 1992, durante a gestão do prefeito Dráulio Holanda, o teatro foi construído com o apoio do extinto Ministério da Educação e Cultura. Com capacidade para 120 pessoas, o palco possui dimensões de 6m x 7m e boca de cena de 6,70m x 3m. Embora sua estrutura seja simples, o espaço é funcional e adequado para apresentações de pequeno e médio porte."
     },
     spot2: {
         title: "Cúria Diocesana do Crato",
-        image: "/public/casa-do-bispo.png", // Substitua pelo caminho real da imagem
+        image: "./public/casa-do-bispo.png", // Substitua pelo caminho real da imagem
         description: "A Cúria Diocesana do Crato é o centro administrativo da Diocese de Crato, no sul do Ceará. Localizada na Rua Dom Quintino, abriga setores responsáveis por coordenar as atividades pastorais, sociais e administrativas da diocese. Além de sua função organizacional, é também espaço de espiritualidade, promovendo missas, encontros e formações para líderes religiosos e comunitários. Fundada em 1914, a Diocese de Crato abrange diversas paróquias e conta com a Cúria como elo central de apoio e unidade na missão evangelizadora da Igreja no Cariri cearense."
     },
     spot3: {
         title: "Museu Histórico do Crato",
-        image: "/public/museu-historico-crato.png", // Substitua pelo caminho real da imagem
+        image: "./public/museu-historico-crato.png", // Substitua pelo caminho real da imagem
         description: "O Museu Histórico do Crato, também conhecido como Museu J. Figueiredo Filho, está localizado no centro da cidade em um prédio de 1817, tombado como patrimônio histórico. Seu acervo reúne cerca de 968 peças que retratam a história do Cariri, incluindo artefatos indígenas dos Kariris e documentos sobre o cangaço. Após anos de abandono, o museu passa por um processo de restauração, com investimentos voltados à preservação desse importante símbolo da memória cultural da região."
     },
     spot4: {
         title: "Camâra Municipal do Crato",
-        image: "/public/camara-municipal.png", // Substitua pelo caminho real da imagem
+        image: "./public/camara-municipal.png", // Substitua pelo caminho real da imagem
         description: "A Câmara Municipal do Crato é o órgão legislativo da cidade, responsável por criar leis, fiscalizar o poder executivo e representar a população. Localizada no centro do município, passou recentemente por reformas para melhorar sua estrutura. Composta por vereadores eleitos, a Câmara promove a transparência e a participação cidadã, oferecendo acesso às suas atividades e projetos por meio de seu site e redes sociais."
     }
 };
