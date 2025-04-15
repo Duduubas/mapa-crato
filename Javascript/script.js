@@ -1,24 +1,24 @@
 // Dados dos pontos turísticos
 const turisticSpots = {
     spot1: {
-        title: "Praça da Sé",
-        image: "/public/img/praca-img.jpg", // Substitua pelo caminho real da imagem
-        description: "O Seminário São José é um importante marco histórico e cultural do Crato. Fundado em 1875, o edifício é um exemplo impressionante da arquitetura religiosa do período. Além de sua importância religiosa, o seminário desempenhou papel fundamental na educação da região, sendo considerado um dos mais importantes centros educacionais do interior nordestino em sua época. Sua estrutura imponente e suas belas áreas internas contam histórias de fé e conhecimento que moldaram gerações de cratenses."
+        title: "Teatro Rachel de Queiroz",
+        image: "/public/img/teatro-rachel-queiroz.png", // Substitua pelo caminho real da imagem
+        description: "O Teatro Rachel de Queiroz, localizado no centro do Crato, Ceará, é um importante espaço cultural da região do Cariri. Inaugurado em 20 de junho de 1992, durante a gestão do prefeito Dráulio Holanda, o teatro foi construído com o apoio do extinto Ministério da Educação e Cultura. Com capacidade para 120 pessoas, o palco possui dimensões de 6m x 7m e boca de cena de 6,70m x 3m. Embora sua estrutura seja simples, o espaço é funcional e adequado para apresentações de pequeno e médio porte."
     },
     spot2: {
-        title: "Chapada do Araripe",
-        image: "/public/img/chapadadoararipe-img.png", // Substitua pelo caminho real da imagem
-        description: "A Chapada do Araripe é uma formação geológica que se estende por três estados do Nordeste brasileiro. No Crato, ela abriga a Floresta Nacional do Araripe, primeira floresta nacional criada no Brasil. O local é conhecido por sua biodiversidade única e pelas fontes naturais de água cristalina que dão origem aos famosos 'olhos d'água' da região. Com uma fauna e flora diversificadas, a chapada proporciona aos visitantes a oportunidade de contemplar paisagens deslumbrantes e sentir o clima agradável característico desta altitude, em contraste com o calor típico do sertão nordestino."
+        title: "Cúria Diocesana do Crato",
+        image: "/public/img/casa-do-bispo.png", // Substitua pelo caminho real da imagem
+        description: "A Cúria Diocesana do Crato é o centro administrativo da Diocese de Crato, no sul do Ceará. Localizada na Rua Dom Quintino, abriga setores responsáveis por coordenar as atividades pastorais, sociais e administrativas da diocese. Além de sua função organizacional, é também espaço de espiritualidade, promovendo missas, encontros e formações para líderes religiosos e comunitários. Fundada em 1914, a Diocese de Crato abrange diversas paróquias e conta com a Cúria como elo central de apoio e unidade na missão evangelizadora da Igreja no Cariri cearense."
     },
     spot3: {
-        title: "Geopark Araripe",
-        image: "/public/img/geoparkararipe-img.png", // Substitua pelo caminho real da imagem
-        description: "O Geopark Araripe foi o primeiro geoparque das Américas reconhecido pela UNESCO. Ele abriga importantes sítios geológicos e paleontológicos, com fósseis excepcionalmente bem preservados que datam de 110 milhões de anos. O centro de visitantes oferece exposições educativas sobre a história geológica da região, permitindo aos visitantes uma viagem no tempo para conhecer os organismos que habitaram a Bacia do Araripe. O geoparque é um exemplo notável de como a proteção do patrimônio geológico pode ser combinada com desenvolvimento sustentável regional e educação ambiental."
+        title: "Museu Histórico do Crato",
+        image: "/public/img/museu-historico-crato.png", // Substitua pelo caminho real da imagem
+        description: "O Museu Histórico do Crato, também conhecido como Museu J. Figueiredo Filho, está localizado no centro da cidade em um prédio de 1817, tombado como patrimônio histórico. Seu acervo reúne cerca de 968 peças que retratam a história do Cariri, incluindo artefatos indígenas dos Kariris e documentos sobre o cangaço. Após anos de abandono, o museu passa por um processo de restauração, com investimentos voltados à preservação desse importante símbolo da memória cultural da região."
     },
     spot4: {
-        title: "Parque de Exposição Pedro Felício Cavalcanti",
-        image: "/public/img/pexposições-img.png", // Substitua pelo caminho real da imagem
-        description: "O Parque de Exposição é um espaço onde acontecem as principais festividades da cidade, incluindo a tradicional Expocrato. O local é palco de shows, exposições agropecuárias e eventos culturais que celebram a identidade cultural do Cariri cearense. Durante a Expocrato, uma das maiores feiras agropecuárias do Nordeste, o parque se transforma em um centro de negócios, entretenimento e valorização da cultura regional, atraindo visitantes de todo o país. Com ampla infraestrutura, o espaço representa a força do agronegócio e das tradições rurais que são parte fundamental da história do Crato."
+        title: "Camâra Municipal do Crato",
+        image: "/public/img/camara-municipal.png", // Substitua pelo caminho real da imagem
+        description: "A Câmara Municipal do Crato é o órgão legislativo da cidade, responsável por criar leis, fiscalizar o poder executivo e representar a população. Localizada no centro do município, passou recentemente por reformas para melhorar sua estrutura. Composta por vereadores eleitos, a Câmara promove a transparência e a participação cidadã, oferecendo acesso às suas atividades e projetos por meio de seu site e redes sociais."
     }
 };
 
