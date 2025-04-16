@@ -2,6 +2,7 @@
 const turisticSpots = {
     spot1: {
         title: "Teatro Rachel de Queiroz",
+        subtitle: "Rua Dom Quintino, 808 - Centro",
         image: "./public/teatro-rachel-queiroz.png", // Substitua pelo caminho real da imagem
         description: "O Teatro Rachel de Queiroz, localizado no centro do Crato, Ceará, é um importante espaço cultural da região do Cariri. Inaugurado em 20 de junho de 1992, durante a gestão do prefeito Dráulio Holanda, o teatro foi construído com o apoio do extinto Ministério da Educação e Cultura. Com capacidade para 120 pessoas, o palco possui dimensões de 6m x 7m e boca de cena de 6,70m x 3m. Embora sua estrutura seja simples, o espaço é funcional e adequado para apresentações de pequeno e médio porte."
     },
